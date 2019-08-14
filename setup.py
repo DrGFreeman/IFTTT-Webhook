@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ifttt_webhook',
-    version='0.0.0',
+    version='0.1.0',
     description='A Python module to trigger IFTTT events using webhooks.',
     author='Julien de la Bruère-Terreault',
     author_email='drgfreeman@tuta.io',
