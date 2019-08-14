@@ -85,7 +85,7 @@ This method triggers an event named 'send_gmail' where the 'value1', value2' and
 The `.notification` method sends a notification the user's mobile device via the IFTTT mobile application.
 
 ```Python
-ifttt.notification(title='IFTTT notification'
+ifttt.notification(title='IFTTT notification',
                    message='Checkout this project on GitHub!',
                    url='https://github.com/DrGFreeman/IFTTT-Webhook')
 ```
