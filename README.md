@@ -69,14 +69,14 @@ The specific methods currently implemented are:
 
 #### Send Gmail
 
-The `.gmail` method sends an email using the users' Gmail account.
+The `.gmail` method sends an email using the user's Gmail account.
 
 ```Python
 ifttt.gmail(to='someone@example.com', subject='This is the subject',
             body='This is the email body.')
 ```
 
-This method triggers an event named 'send_gmail' where the 'value1', value2' and 'value3' "ingredients" of the webhook are mapped to the 'To address', 'Subject' and 'Body' fields of the action respsectively (see below). This event must first be created in the user's IFTTT account in order to work.
+This method triggers an event named 'send_gmail' where the 'value1', 'value2' and 'value3' "ingredients" of the webhook are mapped to the 'To address', 'Subject' and 'Body' fields of the action respsectively (see below). This event must first be created in the user's IFTTT account in order to work.
 
 ![send_gmail IFTTT settings](docs/send_gmail_ifttt.png)
 
@@ -90,6 +90,6 @@ ifttt.notification(title='IFTTT notification',
                    url='https://github.com/DrGFreeman/IFTTT-Webhook')
 ```
 
-This method triggers an event named 'notification' where the 'value1', value2' and 'value3' "ingredients" of the webhook are mapped to the 'Title', 'Message' and 'Link URL' fields of the action respsectively (see below). This event must first be created in the user's IFTTT account in order to work.
+This method triggers an event named 'notification' where the 'value1', 'value2' and 'value3' "ingredients" of the webhook are mapped to the 'Title', 'Message' and 'Link URL' fields of the action respsectively (see below). This event must first be created in the user's IFTTT account in order to work.
 
 ![notification IFTTT settings](docs/notification_ifttt.png)
