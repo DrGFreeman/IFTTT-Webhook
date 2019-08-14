@@ -64,8 +64,8 @@ The `.trigger` method shown above allows to trigger any IFTTT Webhook. The modul
 
 
 The specific methods currently implemented are:
-1. `.gmail`
-1. `.notification`
+1. [`.gmail`](https://github.com/DrGFreeman/IFTTT-Webhook#send_gmail)
+1. [`.notification`](https://github.com/DrGFreeman/IFTTT-Webhook#send_notification)
 
 #### Send Gmail
 
